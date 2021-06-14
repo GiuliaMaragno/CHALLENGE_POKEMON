@@ -67,9 +67,7 @@ h5py==2.10.0
 HeapDict==1.0.1
 helpdev==0.7.1
 html5lib @ file:///tmp/build/80754af9/html5lib_1593446221756/work
-htmlmin==0.1.12
 idna @ file:///tmp/build/80754af9/idna_1593446292537/work
-ImageHash==4.2.0
 imageio @ file:///tmp/build/80754af9/imageio_1594161405741/work
 imagesize==1.2.0
 importlib-metadata @ file:///tmp/build/80754af9/importlib-metadata_1602276842396/work
@@ -105,7 +103,6 @@ MarkupSafe @ file:///opt/concourse/worker/volumes/live/cb778296-98db-45ad-411e-6
 matplotlib @ file:///opt/concourse/worker/volumes/live/f7797860-f8aa-410c-4a56-72315954816b/volume/matplotlib-base_1603378002957/work
 mccabe==0.6.1
 mglearn==0.1.9
-missingno==0.4.2
 mistune @ file:///opt/concourse/worker/volumes/live/95802d64-d39c-491b-74ce-b9326880ca54/volume/mistune_1594373201816/work
 mkl-fft==1.2.0
 mkl-random==1.1.1
@@ -114,15 +111,13 @@ mock==4.0.2
 more-itertools @ file:///tmp/build/80754af9/more-itertools_1605111547926/work
 mpmath==1.1.0
 msgpack==1.0.0
-multimethod==1.4
 multipledispatch==0.6.0
 navigator-updater==0.2.1
 nbclient @ file:///tmp/build/80754af9/nbclient_1602783176460/work
 nbconvert @ file:///opt/concourse/worker/volumes/live/2b9c1d93-d0fd-432f-7d93-66c93d81b614/volume/nbconvert_1601914875037/work
 nbformat @ file:///tmp/build/80754af9/nbformat_1602783287752/work
 nest-asyncio @ file:///tmp/build/80754af9/nest-asyncio_1605115881283/work
-# Editable Git install with no remote (networkx==2.5.1)
--e /Users/giulia/opt/anaconda3/lib/python3.8/site-packages
+-e git+https://github.com/GiuliaMaragno/networkx.git@b77e606ecc22d30d46c7b5d4e0bd600fb48acb41#egg=networkx
 nltk @ file:///tmp/build/80754af9/nltk_1592496090529/work
 nose @ file:///opt/concourse/worker/volumes/live/a029938e-1732-4cd8-5b98-0542283d158b/volume/nose_1594377915100/work
 notebook @ file:///opt/concourse/worker/volumes/live/be0f3504-189d-4bae-4e57-c5d6da73ffcd/volume/notebook_1601501605350/work
@@ -134,7 +129,6 @@ olefile==0.46
 openpyxl @ file:///tmp/build/80754af9/openpyxl_1598113097404/work
 packaging==20.4
 pandas @ file:///opt/concourse/worker/volumes/live/f14cf8c4-c564-4eff-4b17-158e90dbf88a/volume/pandas_1602088128240/work
-pandas-profiling==3.0.0
 pandocfilters @ file:///opt/concourse/worker/volumes/live/c330e404-216d-466b-5327-8ce8fe854d3a/volume/pandocfilters_1605120442288/work
 parso==0.7.0
 partd==1.1.0
@@ -144,7 +138,6 @@ pathtools==0.1.2
 patsy==0.5.1
 pep8==1.7.1
 pexpect @ file:///opt/concourse/worker/volumes/live/8701bb20-ad87-46c7-5108-30c178cf97e5/volume/pexpect_1594383388344/work
-phik==0.11.2
 pickleshare @ file:///opt/concourse/worker/volumes/live/93ec39d8-05bb-4f84-7efc-98735bc39b70/volume/pickleshare_1594384101884/work
 Pillow @ file:///opt/concourse/worker/volumes/live/991b9a87-3372-4acd-45f9-eaa52701f03c/volume/pillow_1603822262543/work
 pkginfo==1.6.1
@@ -159,7 +152,6 @@ pycodestyle==2.6.0
 pycosat==0.6.3
 pycparser @ file:///tmp/build/80754af9/pycparser_1594388511720/work
 pycurl==7.43.0.6
-pydantic==1.8.2
 pydocstyle @ file:///tmp/build/80754af9/pydocstyle_1598885001695/work
 pyflakes==2.2.0
 Pygments @ file:///tmp/build/80754af9/pygments_1604103097372/work
@@ -345,7 +337,6 @@ SQLAlchemy @ file:///opt/concourse/worker/volumes/live/0214475e-3c0a-49a9-6cb8-a
 statsmodels @ file:///opt/concourse/worker/volumes/live/148a0e6d-2163-4103-6ef5-61556693c052/volume/statsmodels_1602280229372/work
 sympy @ file:///opt/concourse/worker/volumes/live/d5d0b33b-5c2f-493b-5b67-8149e5531868/volume/sympy_1605119535834/work
 tables==3.6.1
-tangled-up-in-unicode==0.1.0
 tblib @ file:///tmp/build/80754af9/tblib_1597928476713/work
 terminado==0.9.1
 testpath==0.4.4
@@ -360,7 +351,6 @@ typing-extensions @ file:///tmp/build/80754af9/typing_extensions_1598376058250/w
 ujson @ file:///opt/concourse/worker/volumes/live/2fc9988c-ebca-4577-6c4b-7383ea76e8ee/volume/ujson_1602523306974/work
 unicodecsv==0.14.1
 urllib3 @ file:///tmp/build/80754af9/urllib3_1603305693037/work
-visions==0.7.1
 watchdog @ file:///opt/concourse/worker/volumes/live/cc0ee7bb-1065-44c4-5867-0fd5d13729e0/volume/watchdog_1593447373245/work
 wcwidth @ file:///tmp/build/80754af9/wcwidth_1593447189090/work
 webencodings==0.5.1
